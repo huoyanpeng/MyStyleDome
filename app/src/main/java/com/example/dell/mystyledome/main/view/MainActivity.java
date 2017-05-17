@@ -1,4 +1,4 @@
-package com.example.dell.mystyledome.main;
+package com.example.dell.mystyledome.main.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,6 +12,9 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.example.dell.mystyledome.R;
+import com.example.dell.mystyledome.main.model.FindItemsInteractorImpl;
+import com.example.dell.mystyledome.main.preseenter.MainPresenter;
+import com.example.dell.mystyledome.main.preseenter.MainPresenterImpl;
 
 import java.util.List;
 

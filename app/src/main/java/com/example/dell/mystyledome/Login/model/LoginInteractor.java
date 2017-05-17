@@ -1,4 +1,4 @@
-package com.example.dell.mystyledome.Login;
+package com.example.dell.mystyledome.Login.model;
 
 /**
  * author: 霍彦朋 (dell) .

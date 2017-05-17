@@ -1,7 +1,9 @@
-package com.example.dell.mystyledome.Login;
+package com.example.dell.mystyledome.Login.model;
 
 import android.os.Handler;
 import android.text.TextUtils;
+
+import com.example.dell.mystyledome.Login.model.LoginInteractor;
 
 /**
  * author: 霍彦朋 (dell) .

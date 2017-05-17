@@ -1,7 +1,9 @@
-package com.example.dell.mystyledome.main;
+package com.example.dell.mystyledome.main.model;
 
 import android.os.Handler;
 
+
+import com.example.dell.mystyledome.main.model.FindItemsInteractor;
 
 import java.util.Arrays;
 import java.util.List;

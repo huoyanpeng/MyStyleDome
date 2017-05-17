@@ -1,4 +1,4 @@
-package com.example.dell.mystyledome.main;
+package com.example.dell.mystyledome.main.preseenter;
 
 /**
  * author: 霍彦朋 (dell) .

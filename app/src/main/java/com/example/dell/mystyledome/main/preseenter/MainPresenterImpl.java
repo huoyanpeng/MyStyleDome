@@ -1,4 +1,7 @@
-package com.example.dell.mystyledome.main;
+package com.example.dell.mystyledome.main.preseenter;
+
+import com.example.dell.mystyledome.main.model.FindItemsInteractor;
+import com.example.dell.mystyledome.main.view.MainView;
 
 import java.util.List;
 

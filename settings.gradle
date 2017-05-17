@@ -1,1 +1,1 @@
-include ':app', ':mymvpdome', ':mymvpdome'
+include ':app', ':mymvpdome', ':mymvpdome', ':myprojectclassifymodule'

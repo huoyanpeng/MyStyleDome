@@ -1,14 +1,14 @@
-package com.example.dell.mystyledome.main;
+package com.example.dell.myprojectclassifymodule;
 
 import java.util.List;
 
 /**
  * author: 霍彦朋 (dell) .
- * date: 2017/5/16.
+ * date: 2017/5/17.
  * function:
  */
 
-public interface MainView {
+public interface Classify_main {
     void showProgress();
 
     void hideProgress();

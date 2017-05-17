@@ -1,4 +1,4 @@
-package com.example.dell.mystyledome.Login;
+package com.example.dell.mystyledome.Login.view;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,8 +7,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 
+import com.example.dell.mystyledome.Login.presenter.LoginPresenter;
+import com.example.dell.mystyledome.Login.presenter.LoginPresenterImpl;
 import com.example.dell.mystyledome.R;
-import com.example.dell.mystyledome.main.MainActivity;
+import com.example.dell.mystyledome.main.view.MainActivity;
 
 public class LoginActivity extends AppCompatActivity implements LoginView, View.OnClickListener{
     private ProgressBar progressBar;
