@@ -18,9 +18,11 @@
         <EditText
             android:id="@+id/classify_head_ed"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:hint="搜索商品或店铺"
-            android:focusable="false"/>
+            android:focusable="false"
+            android:layout_marginLeft="10dp"
+            android:background="@null"/>
     </LinearLayout>
 
 

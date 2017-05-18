@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 
-import com.example.dell.myprojectclassifymodule.adapter.MyRecyclerLifeAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -40,6 +40,8 @@ public class Frament_Life extends Fragment {
         initData();
         LinearLayoutManager manager=new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(manager);
+        recyclerView.addItemDecoration(new ItemDecoration());// 添加分割线。
+
         MyRecyclerLifeAdapter adapter=new MyRecyclerLifeAdapter(getActivity(),list);
         recyclerView.setAdapter(adapter);
     }
