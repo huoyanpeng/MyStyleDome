@@ -19,7 +19,6 @@
     android:shape="rectangle">
 
     <solid android:color="@android:color/darker_gray"/>
-
     <size android:height="1px"/>
 
 </shape>

@@ -3,6 +3,7 @@ package com.example.dell.myprojectclassifymodule;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,6 +27,11 @@ public class Frament_Right extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        View viewById = view.findViewById(R.id.frament_rigth_re);
+        initView();
+    }
+
+    private void initView() {
+        RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.twohaed_re);
+        View viewById1 = view.findViewById(R.id.image_back);
     }
 }

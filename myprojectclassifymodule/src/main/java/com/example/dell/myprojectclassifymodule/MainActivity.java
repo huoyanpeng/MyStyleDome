@@ -14,9 +14,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText classify_head_ed;
-    private RecyclerView classify_re_life;
-    private RecyclerView classify_re_right;
+
     private ProgressBar progress;
     private List<String> list=new ArrayList<>();
     @Override

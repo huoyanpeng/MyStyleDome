@@ -5,10 +5,12 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.dell.myprojectclassifymodule.adapter.MyDecoration;
 import com.example.dell.myprojectclassifymodule.adapter.MyRecyclerLifeAdapter;
 
 import java.util.ArrayList;
@@ -38,12 +40,11 @@ public class Frament_Life extends Fragment {
         super.onActivityCreated(savedInstanceState);
         recyclerView = (RecyclerView) view.findViewById(R.id.frament_life_re);
         initData();
-        LinearLayoutManager manager=new LinearLayoutManager(getActivity());
-        recyclerView.setLayoutManager(manager);
-        recyclerView.addItemDecoration(new ItemDecoration());// 添加分割线。
-
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         MyRecyclerLifeAdapter adapter=new MyRecyclerLifeAdapter(getActivity(),list);
         recyclerView.setAdapter(adapter);
+        //这句就是添加我们自定义的分隔线
+        recyclerView.addItemDecoration(new MyDecoration(getActivity(), MyDecoration.VERTICAL_LIST));
     }
 
     private void initData() {
