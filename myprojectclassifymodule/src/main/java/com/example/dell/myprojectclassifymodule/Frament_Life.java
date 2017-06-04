@@ -1,14 +1,16 @@
 package com.example.dell.myprojectclassifymodule;
 
-import android.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.Toast;
 
 import com.example.dell.myprojectclassifymodule.adapter.MyDecoration;
 import com.example.dell.myprojectclassifymodule.adapter.MyRecyclerLifeAdapter;
@@ -16,6 +18,7 @@ import com.example.dell.myprojectclassifymodule.adapter.MyRecyclerLifeAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
+import static android.R.attr.data;
 import static android.R.id.list;
 
 /**
@@ -23,7 +26,7 @@ import static android.R.id.list;
  * date: 2017/5/17.
  * function:
  */
-public class Frament_Life extends Fragment {
+public class Frament_Life extends Fragment{
 
     private View view;
     private RecyclerView recyclerView;
@@ -31,7 +34,7 @@ public class Frament_Life extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.frament_life,null);
+        view = inflater.inflate(R.layout.frament_life,container,true);
         return view;
     }
 
@@ -45,6 +48,15 @@ public class Frament_Life extends Fragment {
         recyclerView.setAdapter(adapter);
         //这句就是添加我们自定义的分隔线
         recyclerView.addItemDecoration(new MyDecoration(getActivity(), MyDecoration.VERTICAL_LIST));
+        adapter.setOnItemClickListener(new MyRecyclerLifeAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(View view, int position) {
+
+                Toast.makeText(getActivity(),list.get(position), Toast.LENGTH_SHORT).show();
+                Frament_Right right=new Frament_Right();
+                right.dd(list.get(position));
+            }
+        });
     }
 
     private void initData() {
@@ -59,4 +71,5 @@ public class Frament_Life extends Fragment {
         list.add("图书天地");
         list.add("童车童床");
     }
+}
 }

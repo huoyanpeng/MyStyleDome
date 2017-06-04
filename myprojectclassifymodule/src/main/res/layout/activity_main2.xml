@@ -12,9 +12,17 @@
     tools:context="com.example.dell.myprojectclassifymodule.Main2Activity">
 
     <include layout="@layout/head_two"></include>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="热门搜索"/>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/twohaed_re"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"></android.support.v7.widget.RecyclerView>
 
 </LinearLayout>

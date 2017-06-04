@@ -10,6 +10,7 @@
         android:orientation="horizontal"
         android:background="@color/colorGray">
         <ImageView
+            android:id="@+id/onehead_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/search_edit_icon"

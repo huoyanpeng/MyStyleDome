@@ -1,12 +1,13 @@
 package com.example.dell.myprojectclassifymodule;
 
-import android.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 /**
  * author: 霍彦朋 (dell) .
@@ -16,11 +17,12 @@ import android.view.ViewGroup;
 public class Frament_Right extends Fragment {
 
     private View view;
+    private TextView right_text;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.frament_right,null);
+        view = inflater.inflate(R.layout.frament_right,container,true);
         return view;
     }
 
@@ -32,6 +34,12 @@ public class Frament_Right extends Fragment {
 
     private void initView() {
         RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.twohaed_re);
-        View viewById1 = view.findViewById(R.id.image_back);
+        right_text = (TextView) view.findViewById(R.id.right_text);
     }
+
+    public void dd(String ss){
+        right_text.setText(ss);
+    }
+
+
 }
