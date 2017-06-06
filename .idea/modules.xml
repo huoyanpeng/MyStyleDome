@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyStyleDome.iml" filepath="$PROJECT_DIR$/MyStyleDome.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercisemvp/exercisemvp.iml" filepath="$PROJECT_DIR$/exercisemvp/exercisemvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/myatlasdome/myatlasdome.iml" filepath="$PROJECT_DIR$/myatlasdome/myatlasdome.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymvpdome/mymvpdome.iml" filepath="$PROJECT_DIR$/mymvpdome/mymvpdome.iml" />
       <module fileurl="file://$PROJECT_DIR$/myprojectclassifymodule/myprojectclassifymodule.iml" filepath="$PROJECT_DIR$/myprojectclassifymodule/myprojectclassifymodule.iml" />

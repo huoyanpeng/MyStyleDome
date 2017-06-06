@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/exercisemvp" />
             <option value="$PROJECT_DIR$/myatlasdome" />
             <option value="$PROJECT_DIR$/mymvpdome" />
             <option value="$PROJECT_DIR$/myprojectclassifymodule" />
