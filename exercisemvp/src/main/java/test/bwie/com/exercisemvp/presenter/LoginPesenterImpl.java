@@ -18,10 +18,6 @@ public class LoginPesenterImpl implements loginPesenter,LoginInteractor.OnLnginF
         this.loginView = loginView;
         this.loginInteractor = new LoginInteractorImpl();
     }
-
-
-
-
     @Override
     public void onUsernameEorro() {
         if (loginView!=null){
