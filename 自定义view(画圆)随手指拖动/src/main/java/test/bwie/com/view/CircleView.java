@@ -5,6 +5,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -18,6 +19,10 @@ public class CircleView extends View {
     private float x=100;
     private float y=100;
     private Paint paint;
+    private float x2;
+    private float y2;
+    private boolean falg=false;
+    private boolean b;
 
     public CircleView(Context context) {
         super(context);
@@ -47,12 +52,17 @@ public class CircleView extends View {
     public boolean onTouchEvent(MotionEvent event) {
         switch (event.getAction()){
             case MotionEvent.ACTION_DOWN:
-
+                x2 = event.getX();
+                y2 = event.getY();
+                Log.e("ssss","x2=="+x2+";y2=="+y2);
+                b = ininIf();
                 break;
             case MotionEvent.ACTION_MOVE:
                 //在拖动图形时获得x值，y值；
                  x = event.getX();
                  y = event.getY();
+                Log.e("ssss","x=="+x+";y=="+y);
+
                 //刷新
                 invalidate();
                 //子线程刷新
@@ -61,6 +71,15 @@ public class CircleView extends View {
             case MotionEvent.ACTION_UP:
                 break;
         }
-        return true;
+        return b;
+    }
+
+    private boolean ininIf() {
+          if (100>=Math.abs(x-x2)&&100>=Math.abs(y-y2)){
+              falg=true;
+          }else {
+             falg=false;
+          }
+        return falg;
     }
 }
