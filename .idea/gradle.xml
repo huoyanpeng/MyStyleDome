@@ -10,10 +10,14 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/exercisemvp" />
+            <option value="$PROJECT_DIR$/libzxing" />
+            <option value="$PROJECT_DIR$/listview自动加载" />
             <option value="$PROJECT_DIR$/myatlasdome" />
             <option value="$PROJECT_DIR$/mymvpdome" />
             <option value="$PROJECT_DIR$/myprojectclassifymodule" />
+            <option value="$PROJECT_DIR$/photoview使用" />
             <option value="$PROJECT_DIR$/多点触控实现图片缩放" />
+            <option value="$PROJECT_DIR$/扫描二维码" />
             <option value="$PROJECT_DIR$/自定义view(画圆)随手指拖动" />
             <option value="$PROJECT_DIR$/自定义viewgroup" />
           </set>

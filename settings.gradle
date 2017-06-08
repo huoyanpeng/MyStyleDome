@@ -1,1 +1,1 @@
-include ':app', ':mymvpdome', ':mymvpdome', ':myprojectclassifymodule', ':myatlasdome', ':exercisemvp', ':自定义view(画圆)随手指拖动', ':自定义viewgroup', ':多点触控实现图片缩放'
+include ':app', ':mymvpdome', ':mymvpdome', ':myprojectclassifymodule', ':myatlasdome', ':exercisemvp', ':自定义view(画圆)随手指拖动', ':自定义viewgroup', ':多点触控实现图片缩放', ':photoview使用', ':listview自动加载', ':扫描二维码', ':libzxing'
