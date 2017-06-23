@@ -34,6 +34,7 @@ public class PermissionActivity extends AppCompatActivity {
 
 
 }
+
 //    @OnPermissionDenied(Manifest.permission.CAMERA)
 //    public void onDenied(){
 //
