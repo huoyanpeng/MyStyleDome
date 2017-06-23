@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.zoom:
-                startActivity(new Intent(this,Main2Activity.class));
+                startActivity(new Intent(this,ZoomActivity.class));
                 break;
         }
     }

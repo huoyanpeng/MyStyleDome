@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/6.0动态权限/6.0动态权限.iml" filepath="$PROJECT_DIR$/6.0动态权限/6.0动态权限.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyStyleDome.iml" filepath="$PROJECT_DIR$/MyStyleDome.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercisemvp/exercisemvp.iml" filepath="$PROJECT_DIR$/exercisemvp/exercisemvp.iml" />
